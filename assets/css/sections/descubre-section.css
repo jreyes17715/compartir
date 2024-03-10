@@ -1,0 +1,114 @@
+/*SECCION DESCUBRE*/
+
+.descubreSection {
+    width: 90%;
+    max-width: 1900px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Righteous-regular', sans-serif;
+
+}
+
+.titleSection{
+    color:#352975;
+    font-size:3.125rem;
+    margin: 50px 0;
+}
+.CardsSection{
+    display: flex;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: 7rem auto;
+}
+
+.itemSectionDescubre {
+    width: 50%;
+    background: white;
+    height: 28.25rem;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    margin: 3rem;
+}
+
+.topSectionCard{
+    height: 153px;
+    padding-top: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.topSectionCard h2{
+    rotate: -90deg;
+    position: absolute;
+    top: 175px;
+    left: 0;
+    color: #785BA7;
+    font-size: 2.125rem;
+    width: 70px;
+    z-index: 3;
+}
+
+.topSectionCard img{
+    position: absolute;
+    top: -92px;
+    right: 0px;
+    width: 75%;
+}
+
+.contentCards {
+    width: 100%;
+    position: relative;
+    top: 0rem;
+    height: 12rem;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1;
+    padding-top: 5rem;
+}
+
+.contentCards::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /*background-color: blue;*/
+    background-image: url("../../images/arrow.avif");
+    transition: bottom 0.3s;
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+.contentCards:hover::after {
+    bottom: 0;
+}
+
+.rowCards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.rowCards h3 {
+    font-size: 1.125rem;
+}
+.directivosItem *{
+    color:#785BA7!important;
+}
+.docentesItem *{
+    color:#A369B8!important;
+}
+
+.familasItem *{
+    color:#E087B8!important;
+}
+.rowCards .itemCardsRows {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.rowCards .itemCardsRows img {
+    width: 20px;
+}
+
+

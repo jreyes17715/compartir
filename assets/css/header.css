@@ -1,0 +1,51 @@
+.menuGeneral {
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    height: 86px;
+    background: white;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 45px #00000026;
+    max-width: 1920px;
+}
+
+.logo {
+    width: 19%;
+    margin-top: 17px;
+    margin-left: 50px;
+}
+.logo img{
+    width: 15.375rem;
+    height: 3.125rem;
+}
+.menuItemsGeneral {
+    width: 70%;
+}
+
+.menuItemsGeneral ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 50px;
+    width: 79%;
+    border-left-style: solid;
+    height: 0px;
+    margin-top: 23px;
+    border-color: #80808094;
+}
+
+.menuItemsGeneral li {
+    list-style: none;
+    margin: 0;
+}
+
+.menuItemsGeneral a {
+    position: relative;
+    top: -8px;
+    text-decoration: none;
+    font-family: 'Righteous-regular', sans-serif;
+    font-weight: bold;
+    color:#1B1C3C;
+    font-size: 1.125rem;
+
+}
