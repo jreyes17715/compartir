@@ -1,0 +1,177 @@
+.evaluarParaAprender{
+    width: 100%;
+    height: 90vh;
+}
+.topSectionEvaluarParaAprender {
+    display: flex;
+    justify-content: center;
+    width: 89%;
+}
+
+.topSectionEvaluarParaAprender h2{
+    color:#A369B8;
+    font-family: 'Righteous-regular', sans-serif;
+    font-size:4.688rem;
+    width: 600px;
+    position: relative;
+    top: 50px;
+}
+
+.topSectionEvaluarParaAprender img{
+    object-fit: contain;
+    left: 4%;
+    position: relative;
+    width: 523px;
+}
+
+
+
+/*test*/
+
+.containerEvaluar {
+    display: flex;
+    height: 400px; /* Altura de ejemplo */
+    width: 72%;
+    margin: 164px auto 0px auto;
+    justify-content: space-evenly;
+    padding-left: 0%;
+  }
+  .containerEvaluar .itemSectionDescubre {
+    width: 100%;
+    background: white;
+    height: 24.25rem;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    margin: 0;
+}
+  .column1 {
+    flex: 1.6;
+  }
+  
+  .column2{
+    flex: 1.6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: -46px;
+      
+  }
+  .column3 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: -46px;
+  }
+  
+  /* Estilos de ejemplo para visualizar mejor los elementos */
+ 
+  
+  .containerEvaluar div.Cont {
+    margin: 0;
+    padding: 7px;
+}
+
+  .contentCards.evaluar{
+    text-align: center;
+    height: 7rem;
+  }
+  .contentCards.evaluar img{
+    display: block;
+    margin: -48px auto 15px auto;
+  }
+
+  .contentCards.evaluar button {
+    width: 168px;
+    height: 40px;
+    background: #E087B8 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    color: white!important;
+    border-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.containerEvaluar h2 {
+    top: 235px!important;
+}
+
+.contIntemEvaluar{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    position: relative;
+    height: 208px;
+}
+
+.contIntemEvaluar h3 {
+    rotate: -90deg;
+    position: absolute;
+    top: 139px;
+    left: 0;
+    color: #785BA7;
+    font-size: 1.75rem;
+    width: 70px;
+    z-index: 3;
+}
+.stats img{
+    position: absolute;
+    top: -141px;
+    width: 338px;
+    right: 0px;
+}
+.contentSmallItems{
+
+}
+.contentSmallItems img{
+width: 250px;
+}
+
+.contentSmallItems h4{
+    color: #A369B8;
+    font-size: 18px;
+}
+.contIntemEvaluar.stats {
+    box-shadow: none!important;
+    background: transparent;
+}
+
+.contIntemEvaluar2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    position: relative;
+    height: 208px;
+}
+
+
+.modeloTitle {
+    position: relative!important;
+    color: #A369B8;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    top: 2rem;
+}
+
+.rowCards2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 33px;
+    width: 60%;
+    margin-top: 63px;
+}
+
+.rowCards2 .itemCardsRows {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.rowCards2 .itemCardsRows img {
+    width: 30px;
+}

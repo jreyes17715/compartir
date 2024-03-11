@@ -9,35 +9,36 @@
 
 }
 
-.titleSection{
+.acpt .titleSectionacpt{
     color:#352975;
     font-size:3.125rem;
     margin: 50px 0;
 }
-.CardsSection{
+.acpt .CardsSectionacpt{
     display: flex;
     justify-content: space-evenly;
-    width: 87%;
+    width: 94%;
     margin: 7rem auto;
+    padding-right: 4rem;
 }
 
-.itemSectionDescubre {
+.acpt .itemSectionDescubreacpt {
     width: 50%;
     background: white;
-    height: 28.25rem;
+    height: 23.25rem;
     box-shadow: 3px 3px 20px #00000029;
     border-radius: 20px;
-    margin: 3rem;
+    margin: 1rem;
 }
 
-.topSectionCard{
+.acpt .topSectionCardacpt{
     height: 153px;
     padding-top: 2rem;
     position: relative;
     width: 100%;
 }
 
-.topSectionCard h2{
+.acpt .topSectionCardacpt h2{
     rotate: -90deg;
     position: absolute;
     top: 175px;
@@ -48,7 +49,7 @@
     z-index: 3;
 }
 
-.topSectionCard img{
+.acpt .topSectionCardacpt img{
     position: absolute;
     top: -92px;
     right: 0px;
@@ -56,18 +57,18 @@
     z-index: 9;
 }
 
-.contentCards {
+.acpt .contentCardsacpt {
     width: 100%;
     position: relative;
     top: 0rem;
-    height: 12rem;
+    height: 5rem;
     overflow: hidden;
     background-color: white;
     z-index: 1;
     padding-top: 5rem;
 }
 
-.contentCards::after {
+.acpt .contentCardsacpt::after {
     content: "";
     position: absolute;
     bottom: -100%;
@@ -80,35 +81,35 @@
     z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
 }
 
-.contentCards:hover::after {
+.acpt .contentCardsacpt:hover::after {
     bottom: 0;
 }
 
-.rowCards {
+.acpt .rowCardsacpt {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 20px;
 }
-.rowCards h3 {
+.acpt .rowCardsacpt h3 {
     font-size: 1.125rem;
 }
-.directivosItem *{
+.acpt .directivosItemacpt *{
     color:#785BA7!important;
 }
-.docentesItem *{
+.acpt .docentesItemacpt *{
     color:#A369B8!important;
 }
 
-.familasItem *{
+.acpt .familasItemacpt *{
     color:#E087B8!important;
 }
-.rowCards .itemCardsRows {
+.acpt .rowCardsacpt .itemCardsRowsacpt {
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 
-.rowCards .itemCardsRows img {
+.acpt .rowCardsacpt .itemCardsRowsacpt img {
     width: 20px;
 }
 
