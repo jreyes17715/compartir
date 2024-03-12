@@ -65,6 +65,7 @@
     background-color: white;
     z-index: 1;
     padding-top: 5rem;
+    border-radius: 15px;
 }
 
 .contentCards::after {
@@ -75,7 +76,7 @@
     width: 100%;
     height: 100%;
     /*background-color: blue;*/
-    background-image: url("../../images/arrow.avif");
+    background-image: url("../../images/fb-arrow.svg");
     transition: bottom 0.3s;
     z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
 }
@@ -112,4 +113,34 @@
     width: 20px;
 }
 
+.itemCardsRows a{
+    position: relative;
+}
+.itemCardsRows a:after {
+    content: '';
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0rem;
+    background: white;
+    position: absolute;
+    display: block;
+    top: -8px;
+    z-index: -1;
+    border-radius: 24px;
+    left: -7px;
+}
 
+
+.itemCardsRows a:hover:after {
+    content: '';
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0rem;
+    background: purple!important;
+    position: absolute;
+    display: block;
+    top: -8px;
+    z-index: -1;
+    border-radius: 24px;
+    left: -7px;
+}

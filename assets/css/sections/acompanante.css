@@ -6,7 +6,9 @@
     text-align: center;
     margin: 30px auto;
     font-family: 'Righteous-regular', sans-serif;
-
+    margin-bottom: -19rem;
+    padding-top: 5rem;
+    position: relative;
 }
 
 .acpt .titleSectionacpt{

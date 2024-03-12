@@ -1,7 +1,29 @@
 .nuestraPropuesta {
 	width: 100%;
-	background-color: #352975;
+	background-image: url('../../images/fondo-morado.svg');
 	height: 125vh;
+}
+.arrosBack {
+    background-image: url(../../images/mascara.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 6rem;
+}
+.arr-bg {
+    background-image: url(../../images/fb-arrow.svg);
+    height: 80vh;
+    background-repeat: repeat-x;
+    background-size: contain;
+    width: 100%;
+    background-position: bottom;
+}
+.arrosBack2 {
+    background-image: url(../../images/mascara-morado.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 6rem;
+    top: -2rem;
+    position: relative;
 }
 
 .contentNuestraPropuesta {
