@@ -131,16 +131,13 @@
 }
 
 
-.itemCardsRows a:hover:after {
-    content: '';
-    width: 35px;
-    height: 35px;
-    margin-bottom: 0rem;
-    background: purple!important;
-    position: absolute;
-    display: block;
-    top: -8px;
-    z-index: -1;
-    border-radius: 24px;
-    left: -7px;
+.directivosItem .itemCardsRows a:hover:after {
+    background: #785BA7!important;
 }
+.docentesItem .itemCardsRows a:hover:after {
+    background: #A369B8!important;
+}
+.familasItem .itemCardsRows a:hover:after {
+    background: #E087B8!important;
+}
+

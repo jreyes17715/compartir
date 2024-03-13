@@ -32,9 +32,15 @@
     margin-left: 50px;
 }
 
-.logo img {
+/*.logo img {
     width: 15.375rem;
     height: 3.125rem;
+}*/
+.logo img {
+    width: 75%;
+    height: 83%;
+    /* width: 15rem; */
+    object-fit: contain;
 }
 
 .menuItemsGeneral {

@@ -1,0 +1,13 @@
+/*RESPONSIVE*/
+@media(max-width:1400px){
+    .menuItemsGeneral a {   
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:1200px){
+    .menuItemsGeneral a {
+        font-size: 0.875rem;
+    }
+
+}

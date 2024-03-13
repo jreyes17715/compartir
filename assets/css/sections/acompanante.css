@@ -78,7 +78,7 @@
     width: 100%;
     height: 100%;
     /*background-color: blue;*/
-    background-image: url("../../images/arrow.avif");
+    background-image: url("../../images/fb-arrow.svg");
     transition: bottom 0.3s;
     z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
 }
@@ -114,5 +114,42 @@
 .acpt .rowCardsacpt .itemCardsRowsacpt img {
     width: 20px;
 }
+.contentCardsacpt ul {
+    width: 50%;
+    position: relative;
+    left: 0;
+    margin: -67px auto 0 auto;
+    text-align: left;
+}
 
+.contentCardsacpt ul li {
+    margin-bottom: 16px;
+}
 
+.familasItemacptTransforma img.logoTrans {
+    width: 327px;
+    margin-top: 19px;
+}
+
+.familasItemacptTransforma .itemCardsRows {
+    display: flex;
+    width: 59%;
+    justify-content: space-around;
+}
+
+.contentCardsacpt button {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 51px;
+    background: #A369B8;
+    color: white;
+    font-weight: bold;
+    margin: 6px;
+    border-style: none;
+}
+section#acompa {
+    padding-top: 0;
+    margin: -84px auto;
+}

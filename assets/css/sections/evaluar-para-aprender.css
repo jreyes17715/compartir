@@ -110,6 +110,13 @@
     height: 208px;
 }
 
+.contIntemEvaluar:hover{
+    background-color: #A369B8!important;
+}
+
+.contIntemEvaluar:hover h3, .contIntemEvaluar:hover h4{
+    color:white;
+}
 .contIntemEvaluar h3 {
     rotate: -90deg;
     position: absolute;

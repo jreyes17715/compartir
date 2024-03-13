@@ -10,12 +10,15 @@
     <link rel="stylesheet" href="../assets/css/sections/nuestra-propuesta.css">
     <link rel="stylesheet" href="../assets/css/sections/evaluar-para-aprender.css">
     <link rel="stylesheet" href="../assets/css/sections/acompanante.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/menu-movies.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
     <!---FUENTES--->
 
   </head>
   <body>
     <!---HEADER--->
-    <header>
+    <header class="desktop">
       <div class="headContent">  
             <div class="menuGeneral">
                 <div class="logo">
@@ -34,6 +37,36 @@
                 </div>
             </div>
         </div>
+    </header>
+    <header class="moviles">
+        <div class="container">
+            <nav class="nav-bar">
+              <a href="#" class="nav-branding">
+                <img src="../assets/images/logo-blanco.png" class="logo-moviles-desktop" alt="">
+              </a>
+        
+              <ul class="nav-menu">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+              </ul>
+        
+              <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </div>
+            </nav>
+          </div>
     </header>
     <script>
        
@@ -326,19 +359,19 @@
                     <div class="contIntemEvaluar2">
                         <div class="contentSmallItems">
                            <h3 class="modeloTitle">MODELO DE REPORTES</h3>
-                           <div class="rowCards2">
-                            <div class="itemCardsRows">
-                                <a href="#">
-                                    <img src="../assets/images/icon-email.svg" alt="">
-                                </a>
-                                <a href="#">
-                                    <img src="../assets/images/icon-email.svg" alt="">
-                                </a>
-                                <a href="#">
-                                    <img src="../assets/images/icon-email.svg" alt="">
-                                </a>
-                            </div>
-                        </div>
+                                <div class="rowCards2">
+                                    <div class="itemCardsRows">
+                                        <a href="#">
+                                            <img src="../assets/images/icon-email.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="../assets/images/icon-email.svg" alt="">
+                                        </a>
+                                        <a href="#">
+                                            <img src="../assets/images/icon-email.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
                         </div>
                     </div>
                   </div>
@@ -357,7 +390,11 @@
                     <img src="../assets/images/fondo_1.png" alt="">
                 </div>
                 <div class="contentCardsacpt">
-                 
+                    <ul>
+                        <li>
+                            Conocimientos, habilidades y capacidades en matemática y lenguaje
+                        </li>
+                    </ul>
                  
                 </div>
 
@@ -367,8 +404,19 @@
                     <h2>ACTIVA</h2>
                     <img src="../assets/images/fondo_2.png" alt="">
                 </div>
-                <div class="contentCardsacptacpt">
-  
+                <div class="contentCardsacpt">
+                   
+                    <ul>
+                        <li>
+                            Metodologías para aprender a aprender
+                        </li>
+                        <li>
+                            Refuerza y evoca conocimientos
+                        </li>
+                        <li>
+                            Acompaña la gestión del aula
+                        </li>
+                    </ul>
                 </div>
 
             </div>
@@ -378,24 +426,77 @@
                     <img src="../assets/images/fondo_3.png" alt="">
                 </div>
                 <div class="contentCardsacpt">
-                
+                  
+                    <ul>
+                        <li>
+                            Metodologías para aprender a aprender
+                        </li>
+                        <li>
+                            Refuerza y evoca conocimientos
+                        </li>
+                        <li>
+                            Acompaña la gestión del aula
+                        </li>
+                    </ul>
                 </div>
 
             </div>
-            <div class="itemSectionDescubreacpt familasItemacpt">
+            <div class="itemSectionDescubreacpt familasItemacptTransforma">
                 <div class="">
-                    <img src="../assets/images/transforma.png" alt="">
+                    <img src="../assets/images/transforma.png" class="logoTrans" alt="">
                 </div>
                 <div class="contentCardsacpt">
-                
+                    <div class="rowCards23">
+                        <div class="itemCardsRows">
+                            <a href="#">
+                                <img src="../assets/images/icon-email.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="../assets/images/icon-email.svg" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="../assets/images/icon-email.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="botonBoxSecuencia">
+                            <button><img src="" alt="">Ver vídeo</button>
+                        </div>
+                    </div>
                 </div>
 
             </div>
         </div>
         
-</section>
+    </section>
     
     
     <!-----------ACOMPAÑAMIENTO---------------->
+    <footer class="footer">
+        <img src="../assets/images/logo-blanco.png" alt="">
+        <script>
+            const hamburger = document.querySelector(".hamburger");
+            const navMenu = document.querySelector(".nav-menu");
+
+            hamburger.addEventListener("click", () => {
+
+            /* Toggle active class */
+            hamburger.classList.toggle("active");
+            navMenu.classList.toggle("active");
+
+            /* Toggle aria-expanded value */
+            let menuOpen = navMenu.classList.contains("active");
+            console.log(menuOpen)
+            let newMenuOpenStatus = menuOpen;
+            hamburger.setAttribute("aria-expanded", newMenuOpenStatus);
+            })
+
+            // close mobile menu
+            document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+            hamburger.classList.remove("active");
+            navMenu.classList.remove("active");
+            //   Need to add Toggle aria-expanded value here as well because it stays as true when you click a menu item
+            }))
+        </script>
+    </footer>
   </body>
 </html>
