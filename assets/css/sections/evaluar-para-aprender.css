@@ -1,7 +1,7 @@
 .evaluarParaAprender {
     width: 100%;
-    height: 90vh;
-    margin-top: 7rem;
+    height: auto;
+    margin-top: 3rem;
 }
 .topSectionEvaluarParaAprender {
     display: flex;
@@ -250,7 +250,7 @@ width: 250px;
 @media(max-width:1100px){
     .containerEvaluar {
         display: flex;
-        height: 400px;
+        height: auto;
         width: 86%;
         margin: 164px auto 0px auto;
         justify-content: left;
@@ -266,37 +266,18 @@ width: 250px;
         width: 13rem;
         right: 0px;
     }
-    .evaluarParaAprender {
-        width: 100%;
-        height: 141vh;
-        margin-top: 7rem;
-    }
+   
 }
 
 @media(max-width:800px){
-    .containerEvaluar {
-        display: flex;
-        height: 400px;
-        width: 86%;
-        margin: 164px auto 0px auto;
-        justify-content: left;
-        padding-left: 0%;
-        /* display: grid; */
-        grid: fr1 1fr;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+   
     .stats img {
         position: absolute;
         top: 7px;
         width: 13rem;
         right: 0px;
     }
-    .evaluarParaAprender {
-        width: 100%;
-        height: 185vh;
-        margin-top: -1rem;
-    }
+    
     .containerEvaluar .itemSectionDescubre {
         width: 58%;
         background: white;
@@ -307,4 +288,50 @@ width: 250px;
         margin-bottom: 4rem;
         margin: 0 auto 70px auto;
     }
+}
+@media(max-width:800px){
+    .topSectionEvaluarParaAprender {
+        display: block;
+        width: 100%;
+    }
+    .topSectionEvaluarParaAprender img {
+        object-fit: contain;
+        left: 0;
+        position: relative;
+        width: 345px;
+        top: 62px;
+        margin: 0 auto;
+        display: block;
+    }
+    .containerEvaluar .itemSectionDescubre {
+        width: 100%;
+        background: white;
+        height: 24.25rem;
+        box-shadow: 3px 3px 20px #00000029;
+        border-radius: 20px;
+        margin: 2px;
+        margin-bottom: 4rem;
+        margin: 0 auto 70px auto;
+    }
+    
+}
+@media(max-width:600px){
+    .topSectionEvaluarParaAprender h2 {
+        color: #A369B8;
+        font-family: 'Righteous-regular', sans-serif;
+        font-size: 2.5rem;
+        width: 100%;
+        position: relative;
+        top: 50px;
+        left: 0;
+        text-align: center;
+    }
+    .containerEvaluar {
+    
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+@media(max-width:500px){
+   
 }
