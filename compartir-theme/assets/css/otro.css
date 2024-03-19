@@ -114,3 +114,19 @@ body {
     width: 800px;
    }
 }
+@media(max-width: 1400px){
+  .natives {
+    top: 7rem;
+    position: relative;
+}
+}
+
+@media(max-width: 600px){
+  .section-our-proposal {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 104px;
+}
+}

@@ -1,4 +1,4 @@
-  <section class="section-our-proposal flex flex-col items-center bg-indigo-950 md:h-full">
+  <section class="section-our-proposal flex flex-col items-center bg-indigo-950 md:h-full" id="propuesta">
         <div class="container natives">
             <div class="flex flex-col items-center">
                 <div class="Title w-full text-center flex justify-center md:justify-start md:mt-20 lg:mt-0">

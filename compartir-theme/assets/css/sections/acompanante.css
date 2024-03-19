@@ -255,10 +255,14 @@ img.wathc {
         width: 500px;
         padding: 0;
     }
-    #acompa {
+    /*#acompa {
         margin: 109px 0px -200px 0 !important;
         width: 100%;
-    }
+    }*/
+    #acompa {
+    margin: 109px 0px 0 !important;
+    width: 100%;
+}
     .acpt .titleSectionacpt {
         color: #352975;
         font-size: 3.125rem;
@@ -292,4 +296,17 @@ img.wathc {
         width: 100%;
         padding: 0;
     }
+    .acpt .topSectionCardacpt img {
+        position: absolute;
+        top: -114px;
+        right: 0px;
+        width: 62%;
+        z-index: 9;
+    }
+    .contentCardsacpt ul li {
+        margin-bottom: 17px;
+        font-size: 19px;
+    }
+
+
 }
