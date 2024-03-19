@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('../fonts/RedHatDisplay-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RedHatDisplay-Bold';
+  src: url('../fonts/RedHatDisplay-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RedHatDisplay-Medium';
+  src: url('../fonts/RedHatDisplay-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Righteous';
+  src: url('../fonts/Righteous-Regular.ttf') format('truetype');
+}
+body {
+  font-family: 'RedHatDisplay', sans-serif; /* Usar Red Hat Display como fuente predeterminada */
+}
+
+.righteous-font{
+  font-family: 'Righteous', sans-serif;
+}
+.redhatdisplay-bold{
+  font-family: 'RedHatDisplay-Bold', sans-serif;
+}
+.section-our-proposal {
+    width: 100%; /* Ajusta el ancho según necesites */
+    height: auto; /* Ajusta la altura según necesites */
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 300px;
+  }
+
+  
+  .section-our-proposal::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: inherit; /* Hace que el pseudo-elemento use el mismo color de fondo que el elemento padre */
+  }
+
+  .section-our-proposal::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    top: -20px;
+    z-index: 3;
+}
+  
+  
+  .section-our-proposal::after {
+    top: 98%;
+    clip-path: ellipse(53% 64% at 50% 0);
+    z-index: -10;
+  }
+
+ .container-card:hover + .box-gackground{
+  background-color: blue;
+ }
+ .section-our-proposal::before {
+  clip-path: ellipse(52% 45% at 50% 0);
+}
+
+ .natives{
+  top: 5rem;
+    position: relative;
+ }
+ @media (min-width: 768px) {
+.section-our-proposal {
+    height: 800px;
+    margin-top: -20rem;
+    z-index: -1;
+    margin-bottom: 150px;
+}
+
+  .section-our-proposal::before {
+    clip-path: ellipse(52% 80% at 50% 0);
+  }
+
+  .section-our-proposal::after {
+   
+    clip-path: ellipse(53% 96% at 50% 0);
+ 
+  }
+  
+
+  .img-principal{
+    width: 368px;
+   }
+  
+}
+
+@media (min-width: 768px) {
+  .img-principal{
+    width: 400px;
+   }
+}
+
+@media (min-width: 1440px) {
+  .img-principal{
+    width: 600px;
+   }
+}
+
+@media (min-width: 1800px) {
+  .img-principal{
+    width: 800px;
+   }
+}

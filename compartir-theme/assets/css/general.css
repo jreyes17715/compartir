@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+@font-face {
+    font-family: 'Righteous-regular';
+    src: url('../tipografia/Righteous-Regular.ttf') format('ttf');
+}  
+
+a, p, li, h1, h2, h3, h4, h5, h6, span{
+    font-family: 'Righteous-regular', sans-serif;
+}
+
