@@ -1,0 +1,286 @@
+/*SECCION DESCUBRE*/
+
+.descubreSection {
+    width: 90%;
+    max-width: 1900px;
+    text-align: center;
+    margin: 30px auto;
+    font-family: 'Righteous-regular', sans-serif;
+
+}
+section#descubre {
+    padding-top: 5rem;
+    z-index: 99999;
+    position: relative;
+}
+
+.titleSection {
+    color: #352975;
+    font-size: 3.125rem;
+    margin: 50px 0;
+    font-weight: 100;
+}
+.CardsSection{
+    display: flex;
+    justify-content: space-evenly;
+    width: 87%;
+    margin: 7rem auto;
+}
+
+.itemSectionDescubre {
+    width: 50%;
+    background: white;
+    height: 28.25rem;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    margin: 3rem;
+}
+
+.topSectionCard{
+    height: 153px;
+    padding-top: 2rem;
+    position: relative;
+    width: 100%;
+}
+
+.topSectionCard h2{
+    rotate: -90deg;
+    position: absolute;
+    top: 175px;
+    left: 0;
+    color: #785BA7;
+    font-size: 2.125rem;
+    width: 70px;
+    z-index: 3;
+}
+
+.topSectionCard img{
+    position: absolute;
+    top: -92px;
+    right: 0px;
+    width: 75%;
+    z-index: 9;
+}
+
+.contentCards {
+    width: 100%;
+    position: relative;
+    top: 0rem;
+    height: 12rem;
+    overflow: hidden;
+    background-color: white;
+    z-index: 1;
+    padding-top: 5rem;
+    border-radius: 15px;
+}
+/*
+.contentCards::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 89%;
+    height: 21vh;
+    background-image: url(../../images/fb-arrow.svg);
+    transition: bottom 0.3s;
+    z-index: -1;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}*/
+.contentCards::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 38px;
+    width: 77%;
+    height: 27vh;
+    background-image: url(../../images/fb-arrow.svg);
+    transition: bottom 0.3s;
+    z-index: -1;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.contentCards:hover::after {
+    bottom: 0;
+}
+
+.rowCards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.rowCards h3 {
+    font-size: 1.125rem;
+        font-weight: 100;
+}
+.directivosItem *{
+    color:#785BA7!important;
+}
+.docentesItem *{
+    color:#A369B8!important;
+}
+
+.familasItem *{
+    color:#E087B8!important;
+}
+.rowCards .itemCardsRows {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.rowCards .itemCardsRows img {
+    width: 20px;
+    position: relative;
+    z-index: 98;
+}
+
+.itemCardsRows a{
+    position: relative;
+}
+.itemCardsRows a:after {
+    content: '';
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0rem;
+    background: white;
+    position: absolute;
+    display: block;
+    top: -8px;
+    z-index: -1;
+    border-radius: 24px;
+    left: -7px;
+}
+
+.iconDos{
+    display:none;
+}
+.directivosItem .itemCardsRows a:hover:after {
+    background: #785BA7!important;
+}
+.docentesItem .itemCardsRows a:hover:after {
+    background: #A369B8!important;
+}
+.familasItem .itemCardsRows a:hover:after {
+    background: #E087B8!important;
+}
+.itemCardsRows a:hover .iconDos{
+    display: block!important;
+}
+.itemCardsRows a:hover .iconUno{
+    display: none!important;
+}
+
+/***********MEDIA QUERIES*****************/
+@media(max-width:1700px){
+    .CardsSection {
+        width: 95%;
+    }
+}
+@media(max-width:1500px){
+    .itemSectionDescubre {
+        width: 50%;
+        background: white;
+        height: 28.25rem;
+        box-shadow: 3px 3px 20px #00000029;
+        border-radius: 20px;
+        margin: 1rem;
+    }
+}
+
+@media(max-width:1300px){
+   .topSectionCard img {
+        position: absolute;
+        top: -92px;
+        right: 0px;
+        width: 84%;
+        z-index: 9;
+    }
+}
+
+
+@media(max-width:1000px){
+    .topSectionCard img {
+         position: absolute;
+         top: -92px;
+         right: 0px;
+         width: 84%;
+         z-index: 9;
+     }
+    .descubreSection {
+        margin: -89px auto!important;
+    }
+    .CardsSection {
+        display: flex;
+        width: 87%;
+        margin: 7rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .itemSectionDescubre {
+        width: 90%;
+        background: white;
+        height: 28.25rem;
+        box-shadow: 3px 3px 20px #00000029;
+        border-radius: 20px;
+        margin: 1rem;
+        margin-bottom: 7rem;
+    }
+ }
+
+ @media(max-width:800px){
+    .topSectionCard img {
+        position: absolute;
+        top: -92px;
+        right: 0px;
+        width: 67%;
+        z-index: 9;
+    }
+    .descubreSection {
+        margin: -89px auto!important;
+    }
+    .CardsSection {
+        display: flex;
+        width: 87%;
+        margin: 7rem auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .itemSectionDescubre {
+        width: 90%;
+        background: white;
+        height: 28.25rem;
+        box-shadow: 3px 3px 20px #00000029;
+        border-radius: 20px;
+        margin: 1rem;
+        margin-bottom: 7rem;
+    }
+ }
+
+@media(max-width: 600px){
+    .topSectionCard img {
+        position: absolute;
+        top: -50px;
+        right: 0px;
+        width: 80%;
+        z-index: 9;
+    }
+    section#descubre {
+        z-index: 9;
+    }
+    .descubreSection {
+        margin: -93px auto -183px auto !important;
+    }
+    .natives {
+        top: 0!important;
+        position: relative;
+    }
+    h1.w-10\/12.text-4xl.lg\:text-5xl.xl\:text-6xl.text-white.mt-40.md\:mt-20.font-bold.md\:ms-10.md\:w-28.lg\:ps-14.lg\:mt-32.redhatdisplay-bold {
+        margin-top: 100px!important;
+        margin-bottom: 30px!important;
+    }
+ /*PANTALLAS GIGANTES*/
+}

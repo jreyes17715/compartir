@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1007" viewBox="0 0 1920 1007">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Fondo_" data-name="Fondo " width="1920" height="1007" transform="translate(0 763)" fill="#1b1c3c"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#974694"/>
+      <stop offset="1" stop-color="#974694" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Enmascarar_grupo_9" data-name="Enmascarar grupo 9" transform="translate(0 -763)" clip-path="url(#clip-path)">
+    <g id="Grupo_92" data-name="Grupo 92" transform="translate(30 -112.735)" opacity="0.3">
+      <path id="Trazado_79" data-name="Trazado 79" d="M729.484,678.368H633.861V154.355l-39.247,34.839c-17.416,15.459-45.694,15.065-62.56-.869-16.451-15.543-15.787-40,1.484-54.819L681.673,0,831.356,134.919c16.8,15.938,15.592,41.086-2.67,55.687l-.522.418c-17.887,14.3-45.365,13.033-61.5-2.84l-37.18-36.574Z" transform="translate(-520.138 1001.734)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_80" data-name="Trazado 80" d="M469.415,855.1H373.792V331.092l-39.247,34.839c-17.416,15.459-45.694,15.065-62.56-.869-16.451-15.543-15.787-40,1.485-54.819L421.6,176.737,571.287,311.656c16.8,15.938,15.592,41.086-2.67,55.687l-.523.418c-17.887,14.3-45.365,13.033-61.5-2.84l-37.18-36.574Z" transform="translate(-1.977 981.447)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_81" data-name="Trazado 81" d="M209.347,1031.842H113.724V507.829L74.476,542.668c-17.416,15.459-45.694,15.065-62.56-.869-16.452-15.542-15.787-40,1.484-54.819L161.535,353.474,311.219,488.393c16.8,15.938,15.592,41.086-2.67,55.687l-.523.418c-17.887,14.3-45.365,13.033-61.5-2.84l-37.18-36.574Z" transform="translate(516.182 961.159)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_93" data-name="Grupo 93" transform="translate(1051 1119)" opacity="0.15">
+      <path id="Trazado_79-2" data-name="Trazado 79" d="M633.862,678.367h95.623V154.355l39.247,34.839c17.416,15.459,45.694,15.065,62.56-.869,16.451-15.543,15.787-40-1.484-54.819L681.673,0,531.99,134.919c-16.8,15.938-15.592,41.086,2.67,55.687l.522.418c17.887,14.3,45.365,13.033,61.5-2.84l37.18-36.574Z" transform="translate(-3.956 -0.001)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_80-2" data-name="Trazado 80" d="M373.793,855.1h95.623V331.092l39.247,34.839c17.416,15.459,45.694,15.065,62.559-.869,16.451-15.543,15.787-40-1.484-54.819L421.6,176.737,271.921,311.656c-16.8,15.938-15.592,41.086,2.67,55.687l.523.418c17.887,14.3,45.365,13.033,61.5-2.84l37.18-36.574Z" transform="translate(-1.978 -20.289)" fill="url(#linear-gradient)"/>
+      <path id="Trazado_81-2" data-name="Trazado 81" d="M113.724,1031.841h95.623V507.829l39.247,34.839c17.416,15.459,45.694,15.065,62.56-.869,16.452-15.542,15.787-40-1.484-54.819L161.536,353.474,11.852,488.393c-16.8,15.938-15.592,41.086,2.67,55.687l.523.418c17.887,14.3,45.365,13.033,61.5-2.84l37.18-36.574Z" transform="translate(0 -40.577)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
