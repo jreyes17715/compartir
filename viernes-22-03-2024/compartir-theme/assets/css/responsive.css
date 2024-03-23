@@ -1,0 +1,38 @@
+/*RESPONSIVE*/
+@media(max-width:1400px){
+    .menuItemsGeneral a {   
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:1200px){
+    .menuItemsGeneral a {
+        font-size: 0.875rem;
+    }
+
+}
+
+
+ @media(min-width: 2600px){
+    .topSectionCard img {
+	    position: absolute;
+	    top: -92px;
+	    right: 0px;
+	    width: 59%;
+	    z-index: 9;
+	}
+    .acpt .CardsSectionacpt {
+        display: flex;
+        justify-content: space-evenly;
+        width: 94%;
+        margin: 14rem auto;
+        padding-right: 4rem;
+    }
+    .acpt .topSectionCardacpt img {
+	    position: absolute;
+	    top: -146px;
+	    right: 0px;
+	    width: 75%;
+	    z-index: 9;
+	}
+ }

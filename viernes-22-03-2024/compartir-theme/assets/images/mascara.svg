@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="150" viewBox="0 0 1920 150">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_34" data-name="Rectángulo 34" width="1920" height="150" transform="translate(0 763)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_7" data-name="Enmascarar grupo 7" transform="translate(0 -763)" clip-path="url(#clip-path)">
+    <circle id="Elipse_14" data-name="Elipse 14" cx="5000" cy="5000" r="5000" transform="translate(-4040 -9142)" fill="#fff"/>
+  </g>
+</svg>
