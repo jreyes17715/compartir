@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="428" height="566.734" viewBox="0 0 428 566.734">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b559a9"/>
+      <stop offset="0.473" stop-color="#cc8bc3"/>
+      <stop offset="1" stop-color="#b559a9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Flechas_Animación_" data-name="Flechas Animación " transform="translate(-230 -325.001)">
+    <path id="Flecha_rosa_arriba_" data-name="Flecha rosa arriba " d="M626.9,387.842H578.134V88.249l-20.015,19.919a22.271,22.271,0,1,1-31.147-31.839L602.517,0l76.335,77.137a22.27,22.27,0,0,1-1.361,31.838l-.266.239a22.272,22.272,0,0,1-31.364-1.624L626.9,86.68Z" transform="translate(-290.137 325)" opacity="0.15" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Flecha_rosa_arriba_2" data-name="Flecha rosa arriba " d="M366.83,564.579H318.065V264.986L298.05,284.9A22.271,22.271,0,1,1,266.9,253.066l75.545-76.329,76.335,77.137a22.27,22.27,0,0,1-1.361,31.838l-.267.239a22.271,22.271,0,0,1-31.363-1.624l-18.961-20.91Z" transform="translate(101.552 237.709)" opacity="0.15" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+    <path id="Flecha_rosa_arriba_3" data-name="Flecha rosa arriba " d="M106.762,741.316H58V441.723L37.981,461.641A22.271,22.271,0,1,1,6.834,429.8l75.545-76.329,76.335,77.137a22.271,22.271,0,0,1-1.361,31.838l-.267.239a22.271,22.271,0,0,1-31.363-1.624l-18.961-20.91Z" transform="translate(493.241 150.419)" opacity="0.15" fill="url(#linear-gradient)" style="mix-blend-mode: multiply;isolation: isolate"/>
+  </g>
+</svg>
