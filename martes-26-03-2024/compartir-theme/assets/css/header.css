@@ -1,0 +1,122 @@
+/* Estilos iniciales */
+.menuGeneral {
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    height: 86px;
+    background: white;
+    margin-top: 30px;
+    border-radius: 50px;
+    box-shadow: 7px 7px 45px #00000026;
+    max-width: 1920px;
+    position: relative; /* Agregamos posición relativa */
+    z-index: 1000; /* Aseguramos que el menú esté por encima de otros elementos */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave para el cambio de color y sombra */
+}
+
+/* Estilos cuando se hace scroll */
+.menuGeneral.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #003cff; /* Cambiamos el color de fondo al hacer scroll */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Añadimos una sombra suave */
+    z-index: 1000; /* Aseguramos que el menú esté por encima de otros elementos */
+}
+
+/* Estilos para el logo y los ítems del menú */
+.logo {
+    width: 19%;
+    margin-top: 17px;
+    margin-left: 50px;
+}
+
+/*.logo img {
+    width: 15.375rem;
+    height: 3.125rem;
+}*/
+.logo img {
+    width: 75%;
+    height: 83%;
+    /* width: 15rem; */
+    object-fit: contain;
+}
+
+.menuItemsGeneral {
+    width: 70%;
+}
+
+.menuItemsGeneral ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 50px;
+    width: 79%;
+    border-left-style: solid;
+    height: 0px;
+    margin-top: 23px;
+    border-color: #80808094;
+}
+
+.menuItemsGeneral li {
+    list-style: none;
+    margin: 0;
+}
+
+.menuItemsGeneral a {
+    position: relative;
+    top: -16px;
+    text-decoration: none;
+    font-family: 'Righteous-regular', sans-serif;
+    font-weight: bold;
+    color:#1B1C3C;
+    font-size: 1.125rem;
+    transition: color 0.3s; /* Transición suave para el cambio de color del texto */
+}
+
+.headContent {
+    margin-top: -55px;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    padding-top: 1rem;
+    background-color: white;
+}
+
+.headContent a {
+    background-image: linear-gradient(to right, #A369B8, #A369B8 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.headContent a:before {
+    content: '';
+    background: #A369B8;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+.headContent a:hover {
+    background-position: 0;
+}
+.headContent a:hover::before {
+    width: 100%;
+}
+
+
+.headContent  a.active{
+    background-position: 0;
+}
+.headContent a.active::before {
+    width: 100%!important;
+}
+/* Presentational Styles */

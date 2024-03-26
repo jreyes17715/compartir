@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="285.5" height="350.04" viewBox="0 0 285.5 350.04">
+  <defs>
+    <filter id="Elipse_2" x="0" y="34.54" width="255" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+    </filter>
+    <filter id="Elipse_2-2" x="0" y="34.54" width="255" height="255" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Ilustración_fondo_" data-name="Ilustración fondo " transform="translate(-913.5 -414.48)">
+    <path id="Trazado_12" data-name="Trazado 12" d="M25,20c19.659.826,109.828,38.17,109.828,38.17C155.564,65.321,161,71.193,161,85V370L0,165V45C0,31.193,5.341,19.174,25,20Z" transform="translate(1038 394.52)" fill="#785ba7"/>
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, 913.5, 414.48)" filter="url(#Elipse_2)">
+        <g id="Elipse_2-3" data-name="Elipse 2" transform="translate(24.5 59.04)" fill="#fff" stroke="#785ba7" stroke-width="5">
+          <circle cx="100" cy="100" r="100" stroke="none"/>
+          <circle cx="100" cy="100" r="102.5" fill="none"/>
+        </g>
+      </g>
+      <circle id="Elipse_2-4" data-name="Elipse 2" cx="100" cy="100" r="100" transform="translate(938 473.52)" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 913.5, 414.48)" filter="url(#Elipse_2-2)">
+        <circle id="Elipse_2-5" data-name="Elipse 2" cx="100" cy="100" r="100" transform="translate(24.5 59.04)" fill="#fff"/>
+      </g>
+      <g id="Elipse_2-6" data-name="Elipse 2" transform="translate(938 473.52)" fill="none" stroke="#785ba7" stroke-width="5">
+        <circle cx="100" cy="100" r="100" stroke="none"/>
+        <circle cx="100" cy="100" r="102.5" fill="none"/>
+      </g>
+    </g>
+    <text id="_2" data-name="2" transform="translate(996 628.48)" fill="#785ba7" font-size="150" font-family="Righteous-Regular, Righteous" letter-spacing="0.05em"><tspan x="0" y="0">2</tspan></text>
+  </g>
+</svg>

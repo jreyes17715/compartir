@@ -1,0 +1,420 @@
+.evaluarParaAprender {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+}
+.topSectionEvaluarParaAprender {
+    display: flex;
+    justify-content: center;
+    width: 83%;
+}
+
+.topSectionEvaluarParaAprender h2{
+    color:#A369B8;
+    font-family: 'Righteous-regular', sans-serif;
+    font-size:4.688rem;
+    width: 600px;
+    position: relative;
+    top: 50px;
+}
+
+.topSectionEvaluarParaAprender img{
+    object-fit: contain;
+    left: 4%;
+    position: relative;
+    width: 421px;
+    top: 26px;
+}
+
+
+
+/*test*/
+
+.containerEvaluar {
+    display: flex;
+    height: 400px; /* Altura de ejemplo */
+    width: 72%;
+    margin: 164px auto 0px auto;
+    justify-content: space-evenly;
+    padding-left: 0%;
+    max-width: 1900px;
+
+  }
+  .containerEvaluar .itemSectionDescubre {
+    width: 100%;
+    background: white;
+    height: 24.25rem;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    margin: 0;
+}
+  .column1 {
+    flex: 1.6;
+  }
+  
+  .column2{
+    flex: 1.6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: -46px;
+      
+  }
+  .column3 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: -46px;
+  }
+  
+  /* Estilos de ejemplo para visualizar mejor los elementos */
+ 
+  
+  .containerEvaluar div.Cont {
+    margin: 0;
+    padding: 7px;
+}
+
+  .contentCards.evaluar{
+    text-align: center;
+    height: 7rem;
+  }
+  .contentCards.evaluar img{
+    display: block;
+    margin: -48px auto 15px auto;
+  }
+
+  .contentCards.evaluar button {
+    width: 168px;
+    height: 40px;
+    background: #E087B8 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    color: white!important;
+    border-style: none;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.containerEvaluar h2 {
+    top: 235px!important;
+}
+
+.contIntemEvaluar{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    position: relative;
+    height: 208px;
+}
+
+.contIntemEvaluar:hover{
+    background-color: #A369B8!important;
+}
+
+.contIntemEvaluar:hover h3, .contIntemEvaluar:hover h4{
+    color:white;
+}
+.contIntemEvaluar h3 {
+    rotate: -90deg;
+    position: absolute;
+    top: 139px;
+    left: 0;
+    color: #785BA7;
+    font-size: 1.75rem;
+    width: 70px;
+    z-index: 3;
+}
+.stats img{
+    position: absolute;
+    top: -141px;
+    width: 338px;
+    right: 0px;
+}
+.contentSmallItems{
+
+}
+.contentSmallItems img{
+width: 250px;
+}
+
+.contentSmallItems h4{
+    color: #A369B8;
+    font-size: 18px;
+    font-weight: 100;
+}
+.contIntemEvaluar.stats {
+    box-shadow: none!important;
+    background: transparent;
+}
+
+.contIntemEvaluar2{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 20px #00000029;
+    border-radius: 20px;
+    position: relative;
+    height: 208px;
+}
+
+
+.modeloTitle {
+    position: relative!important;
+    color: #A369B8;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 1rem;
+    top: 2rem;
+}
+
+.rowCards2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 33px;
+    width: 400px;
+    margin-top: 63px;
+}
+
+.rowCards2 .itemCardsRows {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.rowCards2 .itemCardsRows img {
+    width: 30px;
+    z-index: 9999;
+    position: relative;
+    width: 32px;
+}
+.stats:hover{   
+    background: transparent!important;
+
+}
+
+
+.itwms2 a:after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0rem;
+    background: white;
+    position: absolute;
+    display: block;
+    top: -8px;
+    z-index: -1;
+    border-radius: 24px;
+    left: -10px;
+}
+.itwms2 a:hover:after {
+    background: #A369B8!important;
+    z-index: 2;
+}
+#evalua .contentCards::after {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    left: 38px;
+    width: 66%;
+    height: 20vh;
+    background-image: url(../../images/fb-arrow.svg);
+    transition: bottom 0.3s;
+    z-index: -1;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    left: 4rem;
+}
+
+
+#evalua .contentCards:hover::after {
+    bottom: 0;
+}
+
+@media(max-width:1500px){
+    .topSectionEvaluarParaAprender h2 {
+        color: #A369B8;
+        font-family: 'Righteous-regular', sans-serif;
+        font-size: 3.5rem;
+        width: 459px;
+        position: relative;
+        top: 50px;
+    }
+    .containerEvaluar {
+        display: flex;
+        height: 400px;
+        width: 86%;
+        margin: 164px auto 0px auto;
+        justify-content: space-evenly;
+        padding-left: 0%;
+    }
+    .contIntemEvaluar h3 {
+        rotate: -90deg;
+        position: absolute;
+        top: 115px;
+        left: -7px;
+        color: #785BA7;
+        font-size: 1.2rem;
+        width: 70px;
+        z-index: 3;
+    }
+    .containerEvaluar h2 {
+        top: 169px !important;
+        font-size: 1.5rem;
+    }
+}
+
+
+@media(max-width:1200px){
+    .topSectionEvaluarParaAprender h2 {
+        color: #A369B8;
+        font-family: 'Righteous-regular', sans-serif;
+        font-size: 2.5rem;
+        width: 459px;
+        position: relative;
+        top: 50px;
+        left: 6%;
+    }
+    .containerEvaluar {
+        display: flex;
+        height: 400px;
+        width: 86%;
+        margin: 164px auto 0px auto;
+        justify-content: space-evenly;
+        padding-left: 0%;
+    }
+    .topSectionEvaluarParaAprender img {
+        object-fit: contain;
+        left: 4%;
+        position: relative;
+        width: 345px;
+        top: 26px;
+    }
+}
+
+@media(max-width:1100px){
+    .containerEvaluar {
+        display: flex;
+        height: auto;
+        width: 86%;
+        margin: 164px auto 0px auto;
+        justify-content: left;
+        padding-left: 0%;
+        /* display: grid; */
+        grid: fr1 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .stats img {
+        position: absolute;
+        top: 7px;
+        width: 13rem;
+        right: 0px;
+    }
+   
+}
+
+@media(max-width:800px){
+   .containerEvaluar {
+        display: flex;
+        height: auto;
+        width: 86%;
+        margin: 164px auto 0px auto;
+        justify-content: left;
+        padding-left: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .stats img {
+        position: absolute;
+        top: 7px;
+        width: 13rem;
+        right: 0px;
+    }
+    
+    .containerEvaluar .itemSectionDescubre {
+        width: 58%;
+        background: white;
+        height: 24.25rem;
+        box-shadow: 3px 3px 20px #00000029;
+        border-radius: 20px;
+        margin: 2px;
+        margin-bottom: 4rem;
+        margin: 0 auto 70px auto;
+    }
+    .topSectionEvaluarParaAprender h2 {
+        color: #A369B8;
+        font-family: 'Righteous-regular', sans-serif;
+        font-size: 2.5rem;
+        width: auto;
+        position: relative;
+        top: 50px;
+        left: 6%;
+        text-align: center;
+    }
+}
+@media(max-width:800px){
+    .topSectionEvaluarParaAprender {
+        display: block;
+        width: 100%;
+    }
+    .topSectionEvaluarParaAprender img {
+        object-fit: contain;
+        left: 0;
+        position: relative;
+        width: 345px;
+        top: 62px;
+        margin: 0 auto;
+        display: block;
+    }
+    .containerEvaluar .itemSectionDescubre {
+        width: 100%;
+        background: white;
+        height: 24.25rem;
+        box-shadow: 3px 3px 20px #00000029;
+        border-radius: 20px;
+        margin: 2px;
+        margin-bottom: 4rem;
+        margin: 0 auto 70px auto;
+    }
+    
+}
+@media(max-width:600px){
+    .topSectionEvaluarParaAprender h2 {
+        color: #A369B8;
+        font-family: 'Righteous-regular', sans-serif;
+        font-size: 2.5rem;
+        width: 100%;
+        position: relative;
+        top: 50px;
+        left: 0;
+        text-align: center;
+    }
+    .containerEvaluar {
+    
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .rowCards2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 33px;
+    width: 100%;
+    margin-top: 63px;
+    }
+    .topSectionEvaluarParaAprender img {
+        object-fit: contain;
+        left: 0;
+        position: relative;
+        width: 300px;
+        top: 62px;
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media(max-width:500px){
+   
+}
