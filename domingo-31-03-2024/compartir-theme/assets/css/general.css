@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("../tipografia/Righteous-Regular.woff");
+}
+
+
+a, p, li, h1, h2, h3, h4, h5, h6, span{
+    font-family: "Mystery Quest"!important;
+}
+
+button{
+    font-family: "Mystery Quest"!important;
+    font-weight: 100!important;
+    cursor: pointer;
+}
+h4{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+img.close-window {
+    position: absolute;
+    right: 0;
+    top: -68px;
+    width: 50px!important;
+    z-index: 999;
+    cursor: pointer;
+}
+
+img.close-window2 {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 50px !important;
+    z-index: 999;
+    cursor: pointer;
+}
+
